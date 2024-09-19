@@ -20,10 +20,10 @@ if (
 
 export function calculate(a, b, operation){
 if (operation === 'plus'){
-    return a + b + 1;
+    return a + b;
 }
 else if (operation === 'minus'){
-    return a - b + 1;
+    return a - b;
 }
 else {
     throw new Error('Wrong operator');
