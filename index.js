@@ -1,9 +1,9 @@
-import chalk from "chalk";
+import chalk from 'chalk';
 
-console.log(chalk.blue("it works"));
+console.log(chalk.blue('it works'));
 
-const myUnusedVariable = 20 
+const myUnusedVariable = 20;
 
-if (true === true){
-    console.log(myUnusedVariable)
+if (true === true) {
+  console.log(myUnusedVariable);
 }
