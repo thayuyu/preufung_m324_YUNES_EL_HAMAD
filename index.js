@@ -2,8 +2,8 @@ import chalk from "chalk";
 
 console.log(chalk.blue("it works"));
 
-var myUnusedVariable = 14 
+const myUnusedVariable = 20 
 
-if (true == true){
-    var myUnusedVariable = true
+if (true === true){
+    console.log(myUnusedVariable)
 }
